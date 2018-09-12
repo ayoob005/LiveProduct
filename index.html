@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  
+  
+
+      <link rel="stylesheet" href="css/style.css">
+	   <link rel="stylesheet" href="css/normalize.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="demo">
+    <div class="login">
+      <div class="login__check"></div>
+	  <div class="errorMessages showError" id="messageDiv">
+		
+	  </div>
+	  
+      <div class="login__form">
+		
+        <div class="login__row">
+          <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+            <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+          </svg>
+          <input type="text" class="login__input name" id="username" placeholder="Username"/>
+        </div>
+        <div class="login__row">
+          <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
+            <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
+          </svg>
+          <input type="password" id="password" class="login__input pass" placeholder="Password"/>
+        </div>
+        <button type="button" class="login__submit" id="loginSubmit">Sign in</button>
+        <p class="login__signup">Don't have an account? &nbsp;<a href="./ui/Registration.html">Sign up</a></p>
+      </div>
+    </div>
+    <div class="app">
+      <div class="app__top">
+        <div class="app__menu-btn">
+          <span></span>
+        </div>
+       
+        <div class="active_menu">
+		  <a href="#"><img src="./image/icon-branches.png" class="iconimg" id="brachMenu"><span class="menuTxt">Branches</span></a>
+		  <a href="#"><img src="./image/user.png" class="iconimg"><span class="menuTxt">Users</span></a>
+		  <a href="#"><img src="./image/goods.png" class="iconimg"><span class="menuTxt">Stocks</span></a>
+		  <a href="#"><img src="./image/vendor.png" class="iconimg"><span class="menuTxt">Vendors</span></a>
+		  <a href="#"><img src="./image/Reporting.png" class="iconimg"><span class="menuTxt">Reports</span></a>
+		  <a href="#"><img src="./image/employees.png" class="iconimg"><span class="menuTxt">Employees</span></a>
+		  <a href="#"><img src="./image/expense.png" class="iconimg"><span class="menuTxt">Expenses</span></a>
+		  
+		</div>
+        
+      </div>
+      <div class="app__bot">
+        
+      </div>
+      <div class="app__logout">
+        <svg class="app__logout-icon svg-icon" viewBox="0 0 20 20">
+          <path d="M6,3 a8,8 0 1,0 8,0 M10,0 10,12"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <script src='js/jquery.min.js'></script>
+
+  
+	<script  src="js/jquary.session.js"></script>
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
